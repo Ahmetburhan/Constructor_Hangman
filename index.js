@@ -46,7 +46,7 @@ function takeAGuess() {
         console.log('      XXXXXXXXXXX        XXXXXX   X     X       X        X       XXXXXXX        XXXXX        X       XXXXX    X');
         console.log('');
         console.log('');
-        console.log('The word you were guessing was: ' + myWord.guessesMade );
+        console.log('The word you were guessing was: ' + randoWord);
 
 
 
