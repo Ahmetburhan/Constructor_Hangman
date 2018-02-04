@@ -3,6 +3,10 @@ var wordCons = require("./lib/word.js");
 var letterCons = require("./lib/letter.js");
 var inquirer = require("inquirer");
 
+//hangman graphic
+hangManDisplay = game.hangmanGraphics;
+// console.log(hangManDisplay[1])
+
 // Game header
 console.log('**************************************************************************');
 console.log('                     Welcome to FullStack Hangman                         ')
@@ -18,6 +22,7 @@ exports.letter;
 
 var myWord = new wordCons.wordCons(game.randoWord);
 var maxGuesses = 10;
+var display = 0;
 
 function takeAGuess() {
     console.log(myWord.toString());
@@ -62,7 +67,10 @@ function takeAGuess() {
             console.log('Yes! It was ' + myWord.toString() + '. You have guessed right!');
             return; //Winner
         }
+        this.display++;
         console.log('-------------------\n'); //If we are here the game did not end. Next guess.
+        console.log(hangManDisplay[10 - (maxGuesses - myWord.guessesMade.length)]);
+        // console.log([((hangManDisplay.length) - 1)]);
         console.log('You have ' + (maxGuesses - myWord.guessesMade.length) + ' guesses left brah')
         takeAGuess(); //Recursive call
     }

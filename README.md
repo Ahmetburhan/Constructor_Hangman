@@ -11,7 +11,7 @@ Created Hangman using constructors, objects and Node.js that processes user inpu
 
 # Screenshots
 
-### Game statting screen
+### Game starting screen
 ![Start](/screenshots/start.png)
 
 ### Winning Scenerio (word is guessed)
