@@ -22,7 +22,28 @@ var maxGuesses = 10;
 function takeAGuess() {
     console.log(myWord.toString());
     if (myWord.guessesMade.length >= maxGuesses) {
+        console.log('');
         console.log('You have no more guesses dude. I am sorry try to play a different game that you can win.');
+        console.log('');
+        console.log('XXXXXXXXXX                                                                     XX');
+        console.log('XXX                                                                             XXX');
+        console.log('XX                                                                               XX  X');
+        console.log('XX                                                                               XX   X');
+        console.log('X                                                                               XX    X');
+        console.log('XX                                                                XXXXXX         X     X');
+        console.log('X     XXXXXXXXXXXX      XXXXXXXX X    XXXXX          XXX        XX     X         X     X XX     X   XXXXXX    XXXXXX');
+        console.log('X             XXX     XX       XXX    XX   XX     XXXX XX      X      XX        X      X  X    XX   X   XX    X    X');
+        console.log('XX              XX    X          X    X      X XXX      X     XX     XX         X     XX  X   XX    X XXX     X');
+        console.log('X                X    X          XX   X       XX        X     X    XXX         X      X    X  X     XXX       X');
+        console.log('X                X    X          XX   X       XX        X    XXXXXX            X      X    X XX     X         X');
+        console.log('XXX             XX    X          XX   X        X        X     XX       X       X     X     XXX      X        XX');
+        console.log('   XXXX         XX     XXX    XXXXX    XX       X        X      X      XX       X   XX       XX      X   XX   XX');
+        console.log('      XXXXXXXXXXX        XXXXXX   X     X       X        X       XXXXXXX        XXXXX        X       XXXXX    X');
+        console.log('');
+        console.log('');
+
+
+
         return; //Game over
     }
     inquirer.prompt([{
