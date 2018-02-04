@@ -11,7 +11,7 @@ hangManDisplay = game.hangmanGraphics;
 console.log('**************************************************************************');
 console.log('                     Welcome to FullStack Hangman                         ')
 console.log('**************************************************************************');
-console.log('                 Guess on of the languages you know                            ');
+console.log('                 Guess one of the languages you know                            ');
 
 console.log('');
 console.log('');
