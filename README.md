@@ -8,3 +8,14 @@ Created Hangman using constructors, objects and Node.js that processes user inpu
 2. run `npm install` from console
 
 3. run `node index.js`
+
+# Screenshots
+
+### Game statting screen
+![Start](/screenshots/start.png)
+
+### Winning Scenerio (word is guessed)
+![Winner](/screenshots/winner.png)
+
+### Losing Scenerio (word not guessed after 10 letters entered)
+![Loser](/screenshots/loser.png)
