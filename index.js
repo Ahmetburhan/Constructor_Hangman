@@ -46,6 +46,8 @@ function takeAGuess() {
         console.log('      XXXXXXXXXXX        XXXXXX   X     X       X        X       XXXXXXX        XXXXX        X       XXXXX    X');
         console.log('');
         console.log('');
+        console.log('The word you were guessing was: ' + myWord.guessesMade );
+
 
 
 
@@ -72,6 +74,7 @@ function takeAGuess() {
         console.log(hangManDisplay[10 - (maxGuesses - myWord.guessesMade.length)]);
         // console.log([((hangManDisplay.length) - 1)]);
         console.log('You have ' + (maxGuesses - myWord.guessesMade.length) + ' guesses left brah')
+        console.log("Letters guessed: " + (myWord.guessesMade));
         takeAGuess(); //Recursive call
     }
         );
